@@ -5,9 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Secular+One&family=Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@400;500&family=Oswald&family=Roboto&display=swap');
 
-html,
+html {
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  box-sizing: border-box;
+
   padding: 0;
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,

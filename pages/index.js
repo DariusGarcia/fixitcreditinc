@@ -2,6 +2,7 @@ import Landing from '../components/landing'
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
 import Head from 'next/head'
+import MessageBtn from '../Components/MessageBtn'
 
 export default function Home() {
 	return (
@@ -19,6 +20,7 @@ export default function Home() {
 			<Navigation />
 			<Landing />
 			<Footer />
+			<MessageBtn />
 		</div>
 	)
 }
