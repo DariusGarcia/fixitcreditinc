@@ -3,7 +3,7 @@ import * as Scroll from 'react-scroll'
 import Link from 'next/link'
 import Image from 'next/image'
 import blackLogo from '../public/logo.png'
-import { MailIcon, MenuIcon, PhoneIcon, XIcon } from '@heroicons/react/outline'
+import { MenuIcon, PhoneIcon, XIcon } from '@heroicons/react/outline'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 

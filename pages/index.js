@@ -2,7 +2,6 @@ import Landing from '../components/landing'
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
 import Head from 'next/head'
-import Image from 'next/image'
 
 export default function Home() {
 	return (

@@ -62,7 +62,7 @@ const Footer = () => {
 			</div>
 			<div className='flex justify-center bottom-0 bg-grey50 h-16 z-50'>
 				<section className='flex flex-row justify-center items-center'>
-					<h3 className=''>
+					<h3 className='text-black'>
 						Copyright ©2022 Fix It Credit Inc. All right reserved.
 					</h3>
 				</section>

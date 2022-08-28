@@ -44,7 +44,7 @@ module.exports = {
 		},
 		extend: {
 			backgroundImage: {
-				'curve-bg': "url('Assets/Images/smooth.jpg')",
+				'curve-bg': "url('/smooth.jpg')",
 			},
 		},
 	},
