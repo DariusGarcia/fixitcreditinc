@@ -46,11 +46,11 @@ export default function About() {
 								Our purpose:
 							</p>
 							<p className='flex flex-col'>
-								We believe in fresh starts and that's what we're in business to
-								help our customers do. You don't have to have bad credit to come
-								see us. You can have average credit but want good credit. You
-								can have good credit but want great credit. We can help you no
-								matter what level your credit score is at.
+								We believe in fresh starts and that{`'`}s what we{`'`}re in
+								business to help our customers do. You don{`'`}t have to have
+								bad credit to come see us. You can have average credit but want
+								good credit. You can have good credit but want great credit. We
+								can help you no matter what level your credit score is at.
 							</p>
 						</span>
 					</article>

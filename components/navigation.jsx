@@ -71,9 +71,11 @@ export default function Navigation() {
 						<div className='rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 overflow-hidden'>
 							<div className='px-5 pt-4 flex items-center justify-between'>
 								<div>
-									<img
+									<Image
 										className='h-8 w-auto rounded-md'
 										src={blackLogo}
+										height={60}
+										width={90}
 										alt=''
 									/>
 								</div>

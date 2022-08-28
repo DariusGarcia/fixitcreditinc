@@ -62,14 +62,15 @@ const Tips = () => {
 							</h3>
 							<p className='mb-2'>
 								{' '}
-								NEVER be more than 30 days late on any payment due whether it's
-								a car payment, loan, mortgage, or department store credit card.
+								NEVER be more than 30 days late on any payment due whether it
+								{`'`}s a car payment, loan, mortgage, or department store credit
+								card.
 							</p>
 							<p className='mb-4'>
-								If you know that you won't be able to pay a bill within 30 days,
-								call the creditor BEFORE the 30 days is up and try to arrange a
-								payment plan with them so that the late payment doesn't show on
-								your credit report.
+								If you know that you won{`'`}t be able to pay a bill within 30
+								days, call the creditor BEFORE the 30 days is up and try to
+								arrange a payment plan with them so that the late payment doesn
+								{`'`}t show on your credit report.
 							</p>
 							<p>
 								A late payment, or collection on your credit report can have a
@@ -82,12 +83,12 @@ const Tips = () => {
 							</h3>
 							<p className='mb-4'>
 								{' '}
-								Don't run your credit too often. Too many inquiries can have a
-								negative impact on your credit score.
+								Don{`'`}t run your credit too often. Too many inquiries can have
+								a negative impact on your credit score.
 							</p>
 							<p>
-								It's important that you know what your credit score is, and
-								what's on your report so that you have a better idea of what
+								It{`'`}s important that you know what your credit score is, and
+								what{`'`}s on your report so that you have a better idea of what
 								your chances are of being approved.
 							</p>
 						</article>
@@ -102,9 +103,9 @@ const Tips = () => {
 								achieve a healthy credit score.
 							</p>
 							<p>
-								There's a small monthly fee for the website, but it's totally
-								worth it so you can have peace of mind with regards to your
-								credit, which is a major piece of your financial profile.
+								There{`'`}s a small monthly fee for the website, but it{`'`}s
+								totally worth it so you can have peace of mind with regards to
+								your credit, which is a major piece of your financial profile.
 							</p>
 						</article>
 					</div>
