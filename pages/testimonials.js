@@ -214,26 +214,27 @@ export default function Testimonials() {
 					</div> */}
 				</section>
 			</div>
-			{/* <MessageBtn /> */}
+			<MessageBtn />
 			<Footer />
 		</div>
 	)
 }
 
-function Text1() {
-	const [flip, set] = useState(false)
-	const props = useSpring({
-		to: { opacity: 1 },
-		from: { opacity: 0 },
-		reset: false,
-		reverse: false,
-		delay: 150,
-		config: config.molasses,
-		onRest: () => set(!flip),
-	})
+// function Text1() {
+// 	const [flip, set] = useState(false)
+// 	const props = useSpring({
+// 		to: { opacity: 1 },
+// 		from: { opacity: 0 },
+// 		reset: false,
+// 		reverse: false,
+// 		delay: 150,
+// 		config: config.molasses,
+// 		onRest: () => set(!flip),
+// 	})
 
-	return <animated.h1 style={props}>Testimonials</animated.h1>
-}
+// 	return <animated.h1 style={props}>Testimonials</animated.h1>
+// }
+
 // function Text2() {
 // 	const [flip, set] = useState(false)
 // 	const props = useSpring({
@@ -253,17 +254,18 @@ function Text1() {
 // 		</animated.h1>
 // 	)
 // }
-function Text2() {
-	const [flip, set] = useState(false)
-	const props = useSpring({
-		to: { opacity: 1 },
-		from: { opacity: 0 },
-		reset: true,
-		reverse: true,
-		delay: 600,
-		config: config.molasses,
-		onRest: () => set(!flip),
-	})
 
-	return <animated.h1 style={props}>COMING SOON</animated.h1>
-}
+// function Text2() {
+// 	const [flip, set] = useState(false)
+// 	const props = useSpring({
+// 		to: { opacity: 1 },
+// 		from: { opacity: 0 },
+// 		reset: true,
+// 		reverse: true,
+// 		delay: 600,
+// 		config: config.molasses,
+// 		onRest: () => set(!flip),
+// 	})
+
+// 	return <animated.h1 style={props}>COMING SOON</animated.h1>
+// }

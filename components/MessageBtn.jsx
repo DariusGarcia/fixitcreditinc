@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 import { MdMessage } from 'react-icons/md'
 
 export default function MessageBtn() {
