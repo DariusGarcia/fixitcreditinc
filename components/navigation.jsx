@@ -26,7 +26,7 @@ export default function Navigation() {
 						aria-label='Global'>
 						<div className='flex items-center flex-1'>
 							<div className='flex items-center justify-between w-full lg:w-auto'>
-								<Link href='/'>
+								<Link href=''>
 									<a>
 										<Image
 											className='h-14 w-auto sm:h-24 rounded-md'
@@ -35,7 +35,7 @@ export default function Navigation() {
 											width={90}
 											alt='navbar logo image'
 										/>
-									</a>{' '}
+									</a>
 								</Link>
 								<div className='-mr-2 flex items-center lg:hidden'>
 									<Popover.Button className='bg-warm-gray-50 rounded-md p-2 inline-flex items-center justify-center text-grey hover:bg-warm-gray-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-teal-500'>
@@ -73,7 +73,7 @@ export default function Navigation() {
 						<div className='rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 overflow-hidden'>
 							<div className='px-5 pt-4 flex items-center justify-between'>
 								<div>
-									<Link href='/'>
+									<Link href=''>
 										<a>
 											<Image
 												className='h-8 w-auto rounded-md'

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
-import MessageBtn from '../Components/MessageBtn'
+import MessageBtn from '../components/MessageBtn'
 import { MdFactCheck } from 'react-icons/md'
 import { useSpring, animated, config } from 'react-spring'
 

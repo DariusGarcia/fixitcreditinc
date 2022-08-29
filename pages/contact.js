@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Navigation from '../Components/Navigation'
-import Footer from '../Components/Footer'
+import Navigation from '../components/navigation'
+import Footer from '../components/footer'
 import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
 import { MdMessage } from 'react-icons/md'
 import { useSpring, animated, config } from 'react-spring'

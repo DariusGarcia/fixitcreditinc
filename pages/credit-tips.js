@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import Navigation from '../Components/Navigation'
-import Footer from '../Components/Footer'
+import Navigation from '../components/navigation'
+import Footer from '../components/footer'
+import MessageBtn from '../components/MessageBtn'
+
+import { useSpring, animated, config } from 'react-spring'
 import Spline from '@splinetool/react-spline'
 import { FaClipboardList } from 'react-icons/fa'
-import { useSpring, animated, config } from 'react-spring'
-import MessageBtn from '../Components/MessageBtn'
 
 const Tips = () => {
 	return (

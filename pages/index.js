@@ -1,8 +1,8 @@
 import Landing from '../components/landing'
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
+import MessageBtn from '../components/MessageBtn'
 import Head from 'next/head'
-import MessageBtn from '../Components/MessageBtn'
 
 export default function Home() {
 	return (
