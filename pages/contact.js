@@ -6,14 +6,6 @@ import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
 import { MdMessage } from 'react-icons/md'
 import { useSpring, animated, config } from 'react-spring'
 
-const offices = [
-	{
-		id: 1,
-		city: 'Los Angeles',
-		address: ['6055 E Washington Blvd suite 260', 'Commerce, CA 90040'],
-	},
-]
-
 export default function Example() {
 	return (
 		<div className=''>
@@ -196,10 +188,6 @@ export default function Example() {
 									<h3 className='text-lg font-medium font-DMSans text-white'>
 										Contact information
 									</h3>
-									{/* <p className='mt-6 text-base text-teal-50 max-w-3xl font-DMSans'>
-										Nullam risus blandit ac aliquam justo ipsum. Quam mauris
-										volutpat massa dictumst amet. Sapien tortor lacus arcu.
-									</p> */}
 									<dl className='mt-8 space-y-6 font-DMSans'>
 										<dt>
 											<span className='sr-only'>Phone number</span>
@@ -392,6 +380,14 @@ export default function Example() {
 		</div>
 	)
 }
+
+const offices = [
+	{
+		id: 1,
+		city: 'Los Angeles',
+		address: ['6055 E Washington Blvd suite 260', 'Commerce, CA 90040'],
+	},
+]
 
 // function Text1() {
 // 	const [flip, set] = useState(false)

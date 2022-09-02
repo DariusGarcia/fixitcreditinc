@@ -29,7 +29,7 @@ const Tips = () => {
 			</Head>
 			<Navigation />
 			<div className='flex flex-col items-center justify-center h-full mb-12 text-grey mt-12'>
-				<header className='flex flex-col justify-start items-start md:w-3/5 p-2 md:p-0 mb-8'>
+				<header className='flex flex-col justify-start items-center md:w-3/5 p-2 md:p-0 mb-8'>
 					<div className='flex flex-row items-center gap-4'>
 						<h1 className='md:text-6xl text-4xl font-black font-oswald'>
 							Credit Tips
@@ -52,7 +52,6 @@ const Tips = () => {
 						scene='https://prod.spline.design/7w03NsxuGeMS815p/scene.splinecode'
 					/>
 				</span>
-
 				<section className='flex flex-col justify-center md:items-center items-start'>
 					<span className='flex flex-row justify-start items-center h-max md:w-3/5'>
 						<h3 className='mb-4 text-4xl font-oswald font-black pl-2 md:pl-0'>

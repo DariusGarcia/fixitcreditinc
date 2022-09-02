@@ -9,7 +9,7 @@ export default function Testimonials() {
 	return (
 		<div>
 			<Navigation />
-			<div className='h-screen flex flex-col px-4 justify-start text-neutral bg-curve-bg pt-8 '>
+			<div className='h-screen flex flex-col px-4 justify-start text-neutral bg-curve-bg pt-12 '>
 				<header className='flex justify-center items-center flex-col text-slate w-full mb-4 md:mb-8 rounded-lg '>
 					{' '}
 					<span className='flex md:justify-center flex-col md:w-3/5 items-center text-grey'>

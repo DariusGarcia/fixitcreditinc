@@ -268,6 +268,7 @@ function Text1() {
 // 		</animated.h1>
 // 	)
 // }
+
 function Text2() {
 	const [flip, set] = useState(false)
 	const props = useSpring({

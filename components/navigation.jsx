@@ -1,4 +1,3 @@
-import React from 'react'
 import * as Scroll from 'react-scroll'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -8,6 +7,7 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 
 let animateScroll = Scroll.animateScroll
+
 const navigation = [
 	{ name: 'Home', href: '/' },
 	{ name: 'About', href: '/about' },
@@ -26,7 +26,7 @@ export default function Navigation() {
 						aria-label='Global'>
 						<div className='flex items-center flex-1'>
 							<div className='flex items-center justify-between w-full lg:w-auto'>
-								<Link href=''>
+								<Link href='/'>
 									<a>
 										<Image
 											className='h-14 w-auto sm:h-24 rounded-md'
