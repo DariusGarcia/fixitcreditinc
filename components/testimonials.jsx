@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import Head from 'next/head'
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
 import MessageBtn from '../components/MessageBtn'
@@ -9,6 +9,20 @@ import { useSpring, animated, config } from 'react-spring'
 export default function Testimonials() {
 	return (
 		<div>
+			<Head>
+				<title>Testimonials from our past customers</title>
+				<meta
+					name='description'
+					content='Here are reviews and testimonials from our past customers we have helped.'
+				/>
+				<meta
+					name='keywords'
+					content='fix credit, credit, credit score, credit help company, tips of fixing credit, credit help company, tips credit, tips to fix your credit, credit score help, reviews, testimonials, satisfied customers'
+				/>
+				<meta name='author' content='Fix It Credit Inc.' />
+				<meta name='robots' content='all' />
+				<link rel='icon' href='/logo.png' />
+			</Head>
 			<Navigation />
 			<div className='md:h-full flex flex-col px-4 justify-center text-neutral bg-curve-bg pt-8 md:pt-12'>
 				<header className='flex justify-center items-center flex-col text-slate w-full mb-4 md:mb-8 rounded-lg '>

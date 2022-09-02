@@ -1,4 +1,4 @@
-import React from 'react'
+import Head from 'next/head'
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
 import MessageBtn from '../components/MessageBtn'
@@ -9,6 +9,20 @@ import { useSpring, animated, config } from 'react-spring'
 export default function About() {
 	return (
 		<div className='bg-curve-bg'>
+			<Head>
+				<title>About us | Fix It Credit Inc.</title>
+				<meta
+					name='description'
+					content='Fix It Credit Inc believes in fresh starts and that is what we are in business to help our customers do. You do not have to have bad credit to come see us. You can have average credit but want good credit. You can have good credit but want great credit. We can help you no matter what level your credit score is at.'
+				/>
+				<meta
+					name='keywords'
+					content='about us, who we are, fix credit, credit, credit score, credit help company, tips of fixing credit, credit help company, tips credit, tips to fix your credit, credit score help'
+				/>
+				<meta name='author' content='Fix It Credit Inc.' />
+				<meta name='robots' content='all' />
+				<link rel='icon' href='/logo.png' />
+			</Head>
 			<Navigation />
 			<div className='flex justify-around items-center rounded-xl flex-col md:mt-12 mb-24 md:mb-48 h-full '>
 				<section className='flex justify-center h-full'>

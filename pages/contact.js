@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Head from 'next/head'
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
 import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
@@ -16,6 +17,20 @@ const offices = [
 export default function Example() {
 	return (
 		<div className=''>
+			<Head>
+				<title>Contact Fix It Credit Inc.</title>
+				<meta
+					name='description'
+					content='Get in touch with Fix It Credit Inc. We will help fix your credit score.'
+				/>
+				<meta
+					name='keywords'
+					content='fix credit, credit, credit score, credit help company, tips of fixing credit, credit help company, tips credit, tips to fix your credit, credit score help, message us, get in contact with us'
+				/>
+				<meta name='author' content='Fix It Credit Inc.' />
+				<meta name='robots' content='all' />
+				<link rel='icon' href='/logo.png' />
+			</Head>
 			<Navigation />
 			<main className='overflow-hidden '>
 				{/* Header */}
