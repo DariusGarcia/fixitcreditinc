@@ -388,37 +388,3 @@ const offices = [
 		address: ['6055 E Washington Blvd suite 260', 'Commerce, CA 90040'],
 	},
 ]
-
-// function Text1() {
-// 	const [flip, set] = useState(false)
-// 	const props = useSpring({
-// 		to: { opacity: 1 },
-// 		from: { opacity: 0 },
-// 		reset: false,
-// 		reverse: false,
-// 		delay: 150,
-// 		config: config.molasses,
-// 		onRest: () => set(!flip),
-// 	})
-
-// 	return <animated.h1 style={props}>Get in touch</animated.h1>
-// }
-// function Text2() {
-// 	const [flip, set] = useState(false)
-// 	const props = useSpring({
-// 		to: { opacity: 1 },
-// 		from: { opacity: 0 },
-// 		reset: false,
-// 		reverse: false,
-// 		delay: 400,
-// 		config: config.molasses,
-// 		onRest: () => set(!flip),
-// 	})
-
-// 	return (
-// 		<animated.h1 style={props}>
-// 			Have a question? Leave a message and a representative will get back to you
-// 			shortly.
-// 		</animated.h1>
-// 	)
-// }

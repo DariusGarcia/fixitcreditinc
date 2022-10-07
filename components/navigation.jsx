@@ -6,8 +6,6 @@ import { MenuIcon, PhoneIcon, XIcon } from '@heroicons/react/outline'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 
-let animateScroll = Scroll.animateScroll
-
 const navigation = [
 	{ name: 'Home', href: '/' },
 	{ name: 'About', href: '/about' },
@@ -44,7 +42,7 @@ export default function Navigation() {
 									</Popover.Button>
 								</div>
 							</div>
-							<div className='hidden space-x-10 lg:flex lg:ml-10'>
+							<ul className='hidden space-x-10 lg:flex lg:ml-10'>
 								{navigation.map((item) => (
 									<li
 										key={item.name}
@@ -54,7 +52,7 @@ export default function Navigation() {
 										</Link>
 									</li>
 								))}
-							</div>
+							</ul>
 						</div>
 					</nav>
 				</div>
@@ -93,7 +91,7 @@ export default function Navigation() {
 								</div>
 							</div>
 							<div className='flex justify-center text-center  pt-5 pb-6'>
-								<div className='px-2 space-y-1'>
+								<ul className='px-2 space-y-1'>
 									{navigation.map((item) => (
 										<li
 											key={item.name}
@@ -103,7 +101,7 @@ export default function Navigation() {
 											</Link>
 										</li>
 									))}
-								</div>
+								</ul>
 							</div>
 						</div>
 					</Popover.Panel>

@@ -1,12 +1,8 @@
-import { useState } from 'react'
 import Head from 'next/head'
-
 // import components
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
 import MessageBtn from '../components/MessageBtn'
-
-import { useSpring, animated, config } from 'react-spring'
 import Spline from '@splinetool/react-spline'
 import { FaClipboardList } from 'react-icons/fa'
 
@@ -132,38 +128,5 @@ const tips = [
 		],
 	},
 ]
-
-function Text1() {
-	const [flip, set] = useState(false)
-	const props = useSpring({
-		to: { opacity: 1 },
-		from: { opacity: 0 },
-		reset: false,
-		reverse: false,
-		delay: 150,
-		config: config.molasses,
-		onRest: () => set(!flip),
-	})
-
-	return <animated.h1 style={props}>Credit Tips</animated.h1>
-}
-function Text2() {
-	const [flip, set] = useState(false)
-	const props = useSpring({
-		to: { opacity: 1 },
-		from: { opacity: 0 },
-		reset: false,
-		reverse: false,
-		delay: 600,
-		config: config.molasses,
-		onRest: () => set(!flip),
-	})
-
-	return (
-		<animated.h1 style={props}>
-			Here are some credit tips to keep your credit score in check.
-		</animated.h1>
-	)
-}
 
 export default Tips
