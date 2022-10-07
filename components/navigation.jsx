@@ -31,7 +31,8 @@ export default function Navigation() {
 											src={blackLogo}
 											height={60}
 											width={90}
-											alt='navbar logo image'
+											priority
+											alt='navigation logo'
 										/>
 									</a>
 								</Link>
@@ -78,7 +79,8 @@ export default function Navigation() {
 												src={blackLogo}
 												height={60}
 												width={90}
-												alt=''
+												alt='navigation logo'
+												priority
 											/>
 										</a>
 									</Link>
